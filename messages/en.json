@@ -1,0 +1,129 @@
+{
+    "Navbar": {
+        "home": "Home",
+        "about": "About",
+        "courses": "Courses",
+        "whyUs": "Why Us",
+        "contact": "Contact Us"
+    },
+    "Home": {
+        "title": "Start Your Journey in Programming With",
+        "description": "Learn from zero to professional through real-world projects and expert mentorship that prepares you for the job market.",
+        "explore": "Explore Courses",
+        "contact": "Contact Us"
+    },
+    "About": {
+        "title": "About",
+        "desc1": "Founded with a vision to reshape tech education, StackVerse is a modern learning platform dedicated to building the next generation of software developers. We focus on transforming beginners into confident, job-ready developers through structured roadmaps, real-world projects, and hands-on mentorship.",
+        "desc2": "At StackVerse, we don’t just teach code — we build problem solvers. Our approach combines practical experience with industry best practices to ensure every learner gains the skills needed to succeed in the real world.",
+        "features": [
+            {
+                "title": "Our Mission",
+                "desc": "Empowering learners to become job-ready developers."
+            },
+            {
+                "title": "Our Vision",
+                "desc": "To lead software development education in the Arab world."
+            },
+            {
+                "title": "Practical Learning",
+                "desc": "Build real projects, gain real experience."
+            },
+            {
+                "title": "Community",
+                "desc": "Grow and succeed together."
+            }
+        ]
+    },
+    "Courses": {
+        "title": "Our Courses",
+        "courses": [
+            {
+                "title": "Fundamentals of Programming with c++",
+                "desc": "Learn the basics of programming, including logic, problem solving, and core concepts, step by step from beginner to confident developer.",
+                "duration": "12 Weeks"
+            },
+            {
+                "title": "Frontend Web Development",
+                "desc": "Become a professional Frontend Developer with React.js. Build real-world projects, create dynamic and responsive UIs, and learn the tools and techniques used in modern web development.",
+                "duration": "20 Weeks"
+            },
+            {
+                "title": "React & Next.js",
+                "desc": "Learn how to build fast, scalable web applications using React and Next.js. Master server-side rendering, routing, performance optimization, and modern best practices while building real-world projects.",
+                "duration": "10 Weeks"
+            }
+        ],
+        "fundamentals": {
+            "title": "Fundamentals of Programming with c++",
+            "desc": "Learn the basics of programming, including logic, problem solving, and core concepts, step by step from beginner to confident developer.",
+            "duration": "12 Weeks"
+        },
+        "frontend": {
+            "title": "Frontend Web Development",
+            "desc": "Become a professional Frontend Developer with React.js. Build real-world projects, create dynamic and responsive UIs, and learn the tools and techniques used in modern web development.",
+            "duration": "20 Weeks"
+        },
+        "reactNext": {
+            "title": "React & Next.js",
+            "desc": "Learn how to build fast, scalable web applications using React and Next.js. Master server-side rendering, routing, performance optimization, and modern best practices while building real-world projects.",
+            "duration": "10 Weeks"
+        },
+        "enroll": "Enroll Now",
+        "viewDetails": "View Details"
+    },
+    "WhyUs": {
+        "title": "Why Choose Us",
+        "support": {
+            "title": "Continuous Supports",
+            "desc": "24/7 community and mentor support."
+        },
+        "content": {
+            "title": "Updated Content",
+            "desc": "Learn the latest technologies and best practices."
+        },
+        "projects": {
+            "title": "Practical Projects",
+            "desc": "Learn by doing with hands-on coding exercises."
+        },
+        "roadmap": {
+            "title": "Clear Roadmap",
+            "desc": "Follow a structured path from beginner to pro."
+        }
+    },
+    "Contact": {
+        "title": "Get in Touch",
+        "subtitle": "Have a question? We’d love to hear from you.",
+        "name": {
+            "label": "Name",
+            "placeholder": "Enter your name..."
+        },
+        "phone": {
+            "label": "Phone Number",
+            "placeholder": "Enter your phone number..."
+        },
+        "course": {
+            "label": "Course",
+            "default": "C++ Diploma"
+        },
+        "message": {
+            "label": "Message",
+            "placeholder": "Write your message..."
+        },
+        "button": "Send",
+        "booedSuccessed": "Your message has been sent successfully",
+        "orConnect": "Or connect with us on"
+    },
+    "Footer": {
+        "rights": "All rights reserved"
+    },
+    "Roadmap": {
+        "ProgrammingFundamentals": "Programming Fundamentals",
+        "FrontendWebDevelopment": "Frontend Web Development",
+        "ReactNext": "React & Next.js",
+        "weeks": "Weeks",
+        "hours": "Hours",
+        "sessions": "Sessions / Week",
+        "projects": "Real Projects"
+    }
+}

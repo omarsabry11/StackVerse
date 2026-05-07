@@ -1,0 +1,1434 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "title": "Programming Fundamentals",
+            "titleKey": "ProgrammingFundamentals",
+            "weeks": 12,
+            "hours": 72,
+            "noOfProjects": 5,
+            "phases": [
+                {
+                    "id": "phase-1",
+                    "title": "Programming Basics",
+                    "color": {
+                        "bg": "bg-green-500",
+                        "text": "text-green-600",
+                        "border": "border-green-500",
+                        "lightBg": "bg-green-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "p1-1",
+                            "title": "What is Programming"
+                        },
+                        {
+                            "id": "p1-2",
+                            "title": "Low-level vs High-level"
+                        },
+                        {
+                            "id": "p1-3",
+                            "title": "Input & Output"
+                        },
+                        {
+                            "id": "p1-4",
+                            "title": "Variables"
+                        },
+                        {
+                            "id": "p1-5",
+                            "title": "Data Types"
+                        },
+                        {
+                            "id": "p1-6",
+                            "title": "Naming Conventions"
+                        },
+                        {
+                            "id": "p1-7",
+                            "title": "Casting"
+                        },
+                        {
+                            "id": "p1-8",
+                            "title": "Comments"
+                        },
+                        {
+                            "id": "p1-9",
+                            "title": "Arithmetic Operators"
+                        },
+                        {
+                            "id": "p1-10",
+                            "title": "Increment & Decrement"
+                        },
+                        {
+                            "id": "p1-11",
+                            "title": "Comparison Operators"
+                        },
+                        {
+                            "id": "p1-12",
+                            "title": "Logical Operators"
+                        },
+                        {
+                            "id": "p1-13",
+                            "title": "Operator Precedence"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-2",
+                    "title": "Control Flow",
+                    "color": {
+                        "bg": "bg-yellow-500",
+                        "text": "text-yellow-600",
+                        "border": "border-yellow-500",
+                        "lightBg": "bg-yellow-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "p2-1",
+                            "title": "if statement"
+                        },
+                        {
+                            "id": "p2-2",
+                            "title": "Nested if"
+                        },
+                        {
+                            "id": "p2-3",
+                            "title": "Ternary operator"
+                        },
+                        {
+                            "id": "p2-4",
+                            "title": "switch statement"
+                        },
+                        {
+                            "id": "p2-5",
+                            "title": "for loop"
+                        },
+                        {
+                            "id": "p2-6",
+                            "title": "while loop"
+                        },
+                        {
+                            "id": "p2-7",
+                            "title": "do while loop"
+                        },
+                        {
+                            "id": "p2-8",
+                            "title": "Nested loops"
+                        },
+                        {
+                            "id": "p2-9",
+                            "title": "break & continue"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-3",
+                    "title": "Data Structures Basics",
+                    "color": {
+                        "bg": "bg-blue-500",
+                        "text": "text-blue-600",
+                        "border": "border-blue-500",
+                        "lightBg": "bg-blue-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "p3-1",
+                            "title": "1D Arrays"
+                        },
+                        {
+                            "id": "p3-2",
+                            "title": "2D Arrays"
+                        },
+                        {
+                            "id": "p3-3",
+                            "title": "Strings"
+                        },
+                        {
+                            "id": "p3-4",
+                            "title": "Functions"
+                        },
+                        {
+                            "id": "p3-5",
+                            "title": "Recursion"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-4",
+                    "title": "Object-Oriented Programming (OOP)",
+                    "color": {
+                        "bg": "bg-purple-500",
+                        "text": "text-purple-600",
+                        "border": "border-purple-500",
+                        "lightBg": "bg-purple-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "p4-1",
+                            "title": "Intro to OOP"
+                        },
+                        {
+                            "id": "p4-2",
+                            "title": "Classes & Objects"
+                        },
+                        {
+                            "id": "p4-3",
+                            "title": "Constructors & Destructors"
+                        },
+                        {
+                            "id": "p4-4",
+                            "title": "Access Modifiers"
+                        },
+                        {
+                            "id": "p4-5",
+                            "title": "Encapsulation"
+                        },
+                        {
+                            "id": "p4-6",
+                            "title": "Composition"
+                        },
+                        {
+                            "id": "p4-7",
+                            "title": "Inheritance"
+                        },
+                        {
+                            "id": "p4-8",
+                            "title": "Function overloading"
+                        },
+                        {
+                            "id": "p4-9",
+                            "title": "Function overriding"
+                        },
+                        {
+                            "id": "p4-10",
+                            "title": "Abstraction"
+                        },
+                        {
+                            "id": "p4-11",
+                            "title": "Operator overloading"
+                        },
+                        {
+                            "id": "p4-12",
+                            "title": "Polymorphism"
+                        },
+                        {
+                            "id": "p4-13",
+                            "title": "Exception handling"
+                        },
+                        {
+                            "id": "p4-14",
+                            "title": "Static members"
+                        },
+                        {
+                            "id": "p4-15",
+                            "title": "Utility classes"
+                        },
+                        {
+                            "id": "p4-16",
+                            "title": "Templates"
+                        },
+                        {
+                            "id": "p4-17",
+                            "title": "Copy constructor"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-5",
+                    "title": "Data Structures & Algorithms",
+                    "color": {
+                        "bg": "bg-red-500",
+                        "text": "text-red-600",
+                        "border": "border-red-500",
+                        "lightBg": "bg-red-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "p5-1",
+                            "title": "Time complexity"
+                        },
+                        {
+                            "id": "p5-2",
+                            "title": "Arrays (advanced usage)"
+                        },
+                        {
+                            "id": "p5-3",
+                            "title": "Vector"
+                        },
+                        {
+                            "id": "p5-4",
+                            "title": "Singly Linked List"
+                        },
+                        {
+                            "id": "p5-5",
+                            "title": "Doubly Linked List"
+                        },
+                        {
+                            "id": "p5-6",
+                            "title": "Stack"
+                        },
+                        {
+                            "id": "p5-7",
+                            "title": "Queue"
+                        },
+                        {
+                            "id": "p5-8",
+                            "title": "Graph"
+                        },
+                        {
+                            "id": "p5-9",
+                            "title": "Binary Search Tree"
+                        },
+                        {
+                            "id": "p5-10",
+                            "title": "DFS"
+                        },
+                        {
+                            "id": "p5-11",
+                            "title": "BFS"
+                        },
+                        {
+                            "id": "p5-12",
+                            "title": "Intro to Algorithms"
+                        },
+                        {
+                            "id": "p5-13",
+                            "title": "Linear Search"
+                        },
+                        {
+                            "id": "p5-14",
+                            "title": "Binary Search"
+                        },
+                        {
+                            "id": "p5-15",
+                            "title": "Bubble Sort"
+                        },
+                        {
+                            "id": "p5-16",
+                            "title": "Insertion Sort"
+                        },
+                        {
+                            "id": "p5-17",
+                            "title": "Selection Sort"
+                        },
+                        {
+                            "id": "p5-18",
+                            "title": "Merge Sort"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-6",
+                    "title": "Software Engineering Basics",
+                    "color": {
+                        "bg": "bg-gray-700",
+                        "text": "text-gray-700",
+                        "border": "border-gray-700",
+                        "lightBg": "bg-gray-100"
+                    },
+                    "topics": [
+                        {
+                            "id": "p6-1",
+                            "title": "SOLID Principles"
+                        },
+                        {
+                            "id": "p6-2",
+                            "title": "Git"
+                        },
+                        {
+                            "id": "p6-3",
+                            "title": "GitHub"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Frontend Web Development",
+            "titleKey": "FrontendWebDevelopment",
+            "weeks": 20,
+            "hours": 120,
+            "noOfProjects": 15,
+            "phases": [
+                {
+                    "id": "phase-0",
+                    "title": "Web Fundamentals",
+                    "color": {
+                        "bg": "bg-sky-500",
+                        "text": "text-sky-700",
+                        "border": "border-sky-500",
+                        "lightBg": "bg-sky-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "wf1",
+                            "title": "What Is Web"
+                        },
+                        {
+                            "id": "wf2",
+                            "title": "How Internet Works"
+                        },
+                        {
+                            "id": "wf3",
+                            "title": "Client vs Server"
+                        },
+                        {
+                            "id": "wf4",
+                            "title": "HTTP vs HTTPS"
+                        },
+                        {
+                            "id": "wf5",
+                            "title": "How Browser Works"
+                        },
+                        {
+                            "id": "wf6",
+                            "title": "DNS, Domain & Hosting"
+                        },
+                        {
+                            "id": "wf7",
+                            "title": "Frontend vs Backend"
+                        },
+                        {
+                            "id": "wf8",
+                            "title": "Tools Setup"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-1",
+                    "title": "HTML",
+                    "color": {
+                        "bg": "bg-orange-500",
+                        "text": "text-orange-700",
+                        "border": "border-orange-500",
+                        "lightBg": "bg-orange-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "h1",
+                            "title": "What is HTML"
+                        },
+                        {
+                            "id": "h2",
+                            "title": "History of HTML"
+                        },
+                        {
+                            "id": "h3",
+                            "title": "HTML Document Structure"
+                        },
+                        {
+                            "id": "h4",
+                            "title": "Head Tags (meta, title, link, script, favicon)"
+                        },
+                        {
+                            "id": "h5",
+                            "title": "Tags & Attributes"
+                        },
+                        {
+                            "id": "h6",
+                            "title": "Text & Headings"
+                        },
+                        {
+                            "id": "h7",
+                            "title": "Links (Anchor Tag)"
+                        },
+                        {
+                            "id": "h8",
+                            "title": "Images & Media"
+                        },
+                        {
+                            "id": "h9",
+                            "title": "Lists (ul, ol, dl)"
+                        },
+                        {
+                            "id": "h10",
+                            "title": "Tables"
+                        },
+                        {
+                            "id": "h11",
+                            "title": "Forms & Inputs"
+                        },
+                        {
+                            "id": "h12",
+                            "title": "Semantic HTML"
+                        },
+                        {
+                            "id": "h13",
+                            "title": "Accessibility Basics"
+                        },
+                        {
+                            "id": "h14",
+                            "title": "SEO Basics"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-css-1",
+                    "title": "CSS Fundamentals",
+                    "color": {
+                        "bg": "bg-blue-500",
+                        "text": "text-blue-700",
+                        "border": "border-blue-500",
+                        "lightBg": "bg-blue-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "c1",
+                            "title": "What is CSS"
+                        },
+                        {
+                            "id": "c2",
+                            "title": "CSS Linking Methods"
+                        },
+                        {
+                            "id": "c3",
+                            "title": "CSS Syntax & Selectors"
+                        },
+                        {
+                            "id": "c4",
+                            "title": "Cascade, Specificity & Inheritance"
+                        },
+                        {
+                            "id": "c5",
+                            "title": "Typography"
+                        },
+                        {
+                            "id": "c6",
+                            "title": "Text Properties"
+                        },
+                        {
+                            "id": "c7",
+                            "title": "CSS Units"
+                        },
+                        {
+                            "id": "c8",
+                            "title": "Color Systems"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-css-2",
+                    "title": "CSS Layout & Positioning",
+                    "color": {
+                        "bg": "bg-indigo-500",
+                        "text": "text-indigo-700",
+                        "border": "border-indigo-500",
+                        "lightBg": "bg-indigo-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "c9",
+                            "title": "Box Model"
+                        },
+                        {
+                            "id": "c10",
+                            "title": "Display Property"
+                        },
+                        {
+                            "id": "c11",
+                            "title": "Backgrounds"
+                        },
+                        {
+                            "id": "c12",
+                            "title": "Gradients"
+                        },
+                        {
+                            "id": "c13",
+                            "title": "Overflow"
+                        },
+                        {
+                            "id": "c14",
+                            "title": "Position"
+                        },
+                        {
+                            "id": "c15",
+                            "title": "Box Shadow & Effects"
+                        },
+                        {
+                            "id": "c16",
+                            "title": "Float (Legacy)"
+                        },
+                        {
+                            "id": "c17",
+                            "title": "Flexbox"
+                        },
+                        {
+                            "id": "c18",
+                            "title": "CSS Grid"
+                        },
+                        {
+                            "id": "c19",
+                            "title": "Z-index & Stacking Context"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-css-3",
+                    "title": "Advanced CSS",
+                    "color": {
+                        "bg": "bg-purple-500",
+                        "text": "text-purple-700",
+                        "border": "border-purple-500",
+                        "lightBg": "bg-purple-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "c20",
+                            "title": "Responsive Design"
+                        },
+                        {
+                            "id": "c21",
+                            "title": "Pseudo Classes & Elements"
+                        },
+                        {
+                            "id": "c22",
+                            "title": "Transitions"
+                        },
+                        {
+                            "id": "c23",
+                            "title": "Animations"
+                        },
+                        {
+                            "id": "c24",
+                            "title": "CSS Variables"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-3",
+                    "title": "Bootstrap",
+                    "color": {
+                        "bg": "bg-purple-600",
+                        "text": "text-purple-700",
+                        "border": "border-purple-600",
+                        "lightBg": "bg-purple-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "b1",
+                            "title": "What is Bootstrap"
+                        },
+                        {
+                            "id": "b2",
+                            "title": "Setup"
+                        },
+                        {
+                            "id": "b3",
+                            "title": "Typography Utilities"
+                        },
+                        {
+                            "id": "b4",
+                            "title": "Utility Classes"
+                        },
+                        {
+                            "id": "b5",
+                            "title": "Grid System"
+                        },
+                        {
+                            "id": "b6",
+                            "title": "Breakpoints"
+                        },
+                        {
+                            "id": "b7",
+                            "title": "Forms & Buttons"
+                        },
+                        {
+                            "id": "b8",
+                            "title": "Navbar"
+                        },
+                        {
+                            "id": "b9",
+                            "title": "Cards"
+                        },
+                        {
+                            "id": "b10",
+                            "title": "Components (Modals, Alerts)"
+                        },
+                        {
+                            "id": "b11",
+                            "title": "Customization"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-js-1",
+                    "title": "JavaScript Core",
+                    "color": {
+                        "bg": "bg-yellow-500",
+                        "text": "text-yellow-700",
+                        "border": "border-yellow-500",
+                        "lightBg": "bg-yellow-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "js-core-1",
+                            "title": "What is JavaScript"
+                        },
+                        {
+                            "id": "js-core-2",
+                            "title": "History of JS"
+                        },
+                        {
+                            "id": "js-core-3",
+                            "title": "Ways to Write JS"
+                        },
+                        {
+                            "id": "js-core-4",
+                            "title": "Output Methods"
+                        },
+                        {
+                            "id": "js-core-5",
+                            "title": "Variables & Data Types"
+                        },
+                        {
+                            "id": "js-core-6",
+                            "title": "Naming Conventions & Styles"
+                        },
+                        {
+                            "id": "js-core-7",
+                            "title": "Comments"
+                        },
+                        {
+                            "id": "js-core-8",
+                            "title": "Number & Unary plus"
+                        },
+                        {
+                            "id": "js-core-9",
+                            "title": "Type coercion"
+                        },
+                        {
+                            "id": "js-core-10",
+                            "title": "Operators[Assignment - Arithmetic - Comparison - Logical]"
+                        },
+                        {
+                            "id": "js-core-11",
+                            "title": "Conditions[if - Ternary operator - switch]"
+                        },
+                        {
+                            "id": "js-core-12",
+                            "title": "Loops[for - while - do while]"
+                        },
+                        {
+                            "id": "js-core-13",
+                            "title": "break & continue"
+                        },
+                        {
+                            "id": "js-core-14",
+                            "title": "Functions[Declaration - Expression - Self Invoked]"
+                        },
+                        {
+                            "id": "js-core-15",
+                            "title": "Hoisting"
+                        },
+                        {
+                            "id": "js-core-16",
+                            "title": "Arrays & Objects"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-js-2",
+                    "title": "DOM & BOM",
+                    "color": {
+                        "bg": "bg-sky-600",
+                        "text": "text-sky-700",
+                        "border": "border-sky-600",
+                        "lightBg": "bg-sky-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "js-dom-1",
+                            "title": "What is DOM"
+                        },
+                        {
+                            "id": "js-dom-2",
+                            "title": "DOM Selectors"
+                        },
+                        {
+                            "id": "js-dom-3",
+                            "title": "addEventListener"
+                        },
+                        {
+                            "id": "js-dom-4",
+                            "title": "Events"
+                        },
+                        {
+                            "id": "js-dom-5",
+                            "title": "classList"
+                        },
+                        {
+                            "id": "js-dom-6",
+                            "title": "Style"
+                        },
+                        {
+                            "id": "js-dom-7",
+                            "title": "Attributes"
+                        },
+                        {
+                            "id": "js-dom-8",
+                            "title": "Event Bubbling"
+                        },
+                        {
+                            "id": "js-dom-9",
+                            "title": "Event Capturing"
+                        },
+                        {
+                            "id": "js-dom-10",
+                            "title": "DOM Traversing"
+                        },
+                        {
+                            "id": "js-dom-11",
+                            "title": "Create Element"
+                        },
+                        {
+                            "id": "js-dom-12",
+                            "title": "Event Delegation"
+                        },
+                        {
+                            "id": "js-bom-1",
+                            "title": "What is BOM"
+                        },
+                        {
+                            "id": "js-bom-2",
+                            "title": "localStorage"
+                        },
+                        {
+                            "id": "js-bom-3",
+                            "title": "setTimeout"
+                        },
+                        {
+                            "id": "js-bom-4",
+                            "title": "setInterval"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-js-3",
+                    "title": "ES5 & ES6+",
+                    "color": {
+                        "bg": "bg-cyan-500",
+                        "text": "text-cyan-700",
+                        "border": "border-cyan-500",
+                        "lightBg": "bg-cyan-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "js-es-1",
+                            "title": "Strict Mode"
+                        },
+                        {
+                            "id": "js-es-2",
+                            "title": "forEach"
+                        },
+                        {
+                            "id": "js-es-3",
+                            "title": "for in"
+                        },
+                        {
+                            "id": "js-es-4",
+                            "title": "let & const"
+                        },
+                        {
+                            "id": "js-es-5",
+                            "title": "Default Parameters    "
+                        },
+                        {
+                            "id": "js-es-6",
+                            "title": "Template Literals"
+                        },
+                        {
+                            "id": "js-es-7",
+                            "title": "Destructuring[Object - Array]"
+                        },
+                        {
+                            "id": "js-es-8",
+                            "title": "Spread Operator[Object, Array]"
+                        },
+                        {
+                            "id": "js-es-9",
+                            "title": "this keyword"
+                        },
+                        {
+                            "id": "js-es-10",
+                            "title": "Arrow Function"
+                        },
+                        {
+                            "id": "js-es-11",
+                            "title": "map & filter"
+                        },
+                        {
+                            "id": "js-es-12",
+                            "title": "for of"
+                        },
+                        {
+                            "id": "js-es-13",
+                            "title": "Copy[Shallow - Deep]"
+                        },
+                        {
+                            "id": "js-es-14",
+                            "title": "Set & Map"
+                        },
+                        {
+                            "id": "js-es-15",
+                            "title": "Modules"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-js-4",
+                    "title": "API & Async JS",
+                    "color": {
+                        "bg": "bg-teal-500",
+                        "text": "text-teal-700",
+                        "border": "border-teal-500",
+                        "lightBg": "bg-teal-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "js-api-1",
+                            "title": "What is API"
+                        },
+                        {
+                            "id": "js-api-2",
+                            "title": "XMLHttpRequest"
+                        },
+                        {
+                            "id": "js-api-3",
+                            "title": "Synchronous VS Asynchronous"
+                        },
+                        {
+                            "id": "js-api-4",
+                            "title": "Callback"
+                        },
+                        {
+                            "id": "js-api-5",
+                            "title": "Promises"
+                        },
+                        {
+                            "id": "js-api-6",
+                            "title": "Fetch"
+                        },
+                        {
+                            "id": "js-api-7",
+                            "title": "await & async"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-5",
+                    "title": "Tailwind CSS",
+                    "color": {
+                        "bg": "bg-cyan-400",
+                        "text": "text-cyan-500",
+                        "border": "border-cyan-400",
+                        "lightBg": "bg-cyan-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "tw-1",
+                            "title": "Introduction to Tailwind CSS"
+                        },
+                        {
+                            "id": "tw-2",
+                            "title": "Installing & Configuring Tailwind"
+                        },
+                        {
+                            "id": "tw-3",
+                            "title": "Utility-First Fundamentals"
+                        },
+                        {
+                            "id": "tw-4",
+                            "title": "Typography & Colors"
+                        },
+                        {
+                            "id": "tw-5",
+                            "title": "Spacing, Sizing & Layout"
+                        },
+                        {
+                            "id": "tw-6",
+                            "title": "Flexbox & Grid in Tailwind"
+                        },
+                        {
+                            "id": "tw-7",
+                            "title": "Responsive Design & Breakpoints"
+                        },
+                        {
+                            "id": "tw-8",
+                            "title": "Hover, Focus & State Variants"
+                        },
+                        {
+                            "id": "tw-9",
+                            "title": "Animations & Transitions"
+                        },
+                        {
+                            "id": "tw-10",
+                            "title": "Reusable Components & @apply"
+                        },
+                        {
+                            "id": "tw-11",
+                            "title": "Custom Theme & Configuration"
+                        },
+                        {
+                            "id": "tw-12",
+                            "title": "Dark Mode Implementation"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-6",
+                    "title": "TypeScript",
+                    "color": {
+                        "bg": "bg-blue-500",
+                        "text": "text-blue-700",
+                        "border": "border-blue-500",
+                        "lightBg": "bg-blue-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "ts-1",
+                            "title": "What is TypeScript"
+                        },
+                        {
+                            "id": "ts-2",
+                            "title": "TypeScript Setup"
+                        },
+                        {
+                            "id": "ts-3",
+                            "title": "Basic Types"
+                        },
+                        {
+                            "id": "ts-4",
+                            "title": "Union Types"
+                        },
+                        {
+                            "id": "ts-5",
+                            "title": "Arrays, Tuples & Enums"
+                        },
+                        {
+                            "id": "ts-6",
+                            "title": "Functions"
+                        },
+                        {
+                            "id": "ts-7",
+                            "title": "Objects & Interfaces"
+                        },
+                        {
+                            "id": "ts-8",
+                            "title": "Generics"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-7",
+                    "title": "SASS",
+                    "color": {
+                        "bg": "bg-pink-500",
+                        "text": "text-pink-700",
+                        "border": "border-pink-500",
+                        "lightBg": "bg-pink-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "sass-1",
+                            "title": "What is SASS"
+                        },
+                        {
+                            "id": "sass-2",
+                            "title": "Variables & Nesting"
+                        },
+                        {
+                            "id": "sass-3",
+                            "title": "Inheritance & Extend"
+                        },
+                        {
+                            "id": "sass-4",
+                            "title": "@each & @for"
+                        },
+                        {
+                            "id": "sass-5",
+                            "title": "Mixins"
+                        },
+                        {
+                            "id": "sass-6",
+                            "title": "Functions"
+                        },
+                        {
+                            "id": "sass-7",
+                            "title": "@if & @else"
+                        },
+                        {
+                            "id": "sass-8",
+                            "title": "Partail Files"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-8",
+                    "title": "React.js",
+                    "color": {
+                        "bg": "bg-sky-500",
+                        "text": "text-sky-600",
+                        "border": "border-sky-500",
+                        "lightBg": "bg-sky-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "r1",
+                            "title": "What is React.js"
+                        },
+                        {
+                            "id": "r2",
+                            "title": "Library vs Framework"
+                        },
+                        {
+                            "id": "r3",
+                            "title": "Single Page Application (SPA)"
+                        },
+                        {
+                            "id": "r4",
+                            "title": "Component Architecture"
+                        },
+                        {
+                            "id": "r5",
+                            "title": "JSX & Binding"
+                        },
+                        {
+                            "id": "r6",
+                            "title": "Hooks"
+                        },
+                        {
+                            "id": "r7",
+                            "title": "useState"
+                        },
+                        {
+                            "id": "r8",
+                            "title": "Props"
+                        },
+                        {
+                            "id": "r9",
+                            "title": "Component Lifecycle"
+                        },
+                        {
+                            "id": "r10",
+                            "title": "useEffect"
+                        },
+                        {
+                            "id": "r11",
+                            "title": "Routing"
+                        },
+                        {
+                            "id": "r12",
+                            "title": "API Calls"
+                        },
+                        {
+                            "id": "r13",
+                            "title": "Forms"
+                        },
+                        {
+                            "id": "r14",
+                            "title": "Validation"
+                        },
+                        {
+                            "id": "r15",
+                            "title": "Advanced Hooks"
+                        },
+                        {
+                            "id": "r16",
+                            "title": "Context ApI"
+                        },
+                        {
+                            "id": "r17",
+                            "title": "Redux / Redux Toolkit"
+                        },
+                        {
+                            "id": "r18",
+                            "title": "Error Handling"
+                        },
+                        {
+                            "id": "r19",
+                            "title": "Performance Optimaization"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-9",
+                    "title": "Next.js",
+                    "color": {
+                        "bg": "bg-gray-600",
+                        "text": "text-gray-600",
+                        "border": "border-gray-500",
+                        "lightBg": "bg-gray-100"
+                    },
+                    "topics": [
+                        {
+                            "id": "next-1",
+                            "title": "What is Next.js"
+                        },
+                        {
+                            "id": "next-2",
+                            "title": "App Router"
+                        },
+                        {
+                            "id": "next-3",
+                            "title": "Routing"
+                        },
+                        {
+                            "id": "next-4",
+                            "title": "Server Components"
+                        },
+                        {
+                            "id": "next-5",
+                            "title": "Image Optimization"
+                        },
+                        {
+                            "id": "next-6",
+                            "title": "CSR / SSR / SSG / ISR"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "React & Next.js",
+            "titleKey": "ReactNext",
+            "weeks": 10,
+            "hours": 60,
+            "noOfProjects": 8,
+            "phases": [
+                {
+                    "id": "phase-1",
+                    "title": "React Fundamentals",
+                    "color": {
+                        "bg": "bg-blue-500",
+                        "text": "text-blue-600",
+                        "border": "border-blue-500",
+                        "lightBg": "bg-blue-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "r1-1",
+                            "title": "What is React.js"
+                        },
+                        {
+                            "id": "r1-2",
+                            "title": "Library vs Framework"
+                        },
+                        {
+                            "id": "r1-3",
+                            "title": "Single Page Application (SPA)"
+                        },
+                        {
+                            "id": "r1-4",
+                            "title": "Component Architecture"
+                        },
+                        {
+                            "id": "r1-5",
+                            "title": "JSX"
+                        },
+                        {
+                            "id": "r1-6",
+                            "title": "Binding"
+                        },
+                        {
+                            "id": "r1-7",
+                            "title": "Class vs Functional Components"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-2",
+                    "title": "Core React Concepts",
+                    "color": {
+                        "bg": "bg-green-500",
+                        "text": "text-green-600",
+                        "border": "border-green-500",
+                        "lightBg": "bg-green-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "r2-1",
+                            "title": "Props"
+                        },
+                        {
+                            "id": "r2-2",
+                            "title": "Hooks"
+                        },
+                        {
+                            "id": "r2-3",
+                            "title": "useState"
+                        },
+                        {
+                            "id": "r2-4",
+                            "title": "Component Lifecycle"
+                        },
+                        {
+                            "id": "r2-5",
+                            "title": "useEffect"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-3",
+                    "title": "Routing & Data Fetching",
+                    "color": {
+                        "bg": "bg-yellow-500",
+                        "text": "text-yellow-600",
+                        "border": "border-yellow-500",
+                        "lightBg": "bg-yellow-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "r3-1",
+                            "title": "Routing"
+                        },
+                        {
+                            "id": "r3-2",
+                            "title": "Protected Route"
+                        },
+                        {
+                            "id": "r3-3",
+                            "title": "API Calls"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-4",
+                    "title": "Advanced Hooks & Performance Optimization",
+                    "color": {
+                        "bg": "bg-purple-500",
+                        "text": "text-purple-600",
+                        "border": "border-purple-500",
+                        "lightBg": "bg-purple-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "r4-1",
+                            "title": "Custom Hooks"
+                        },
+                        {
+                            "id": "r4-2",
+                            "title": "useReducer"
+                        },
+                        {
+                            "id": "r4-3",
+                            "title": "useRef"
+                        },
+                        {
+                            "id": "r4-4",
+                            "title": "useCallback"
+                        },
+                        {
+                            "id": "r4-5",
+                            "title": "useMemo"
+                        },
+                        {
+                            "id": "r4-6",
+                            "title": "memo"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-5",
+                    "title": "Forms & Application Features",
+                    "color": {
+                        "bg": "bg-indigo-500",
+                        "text": "text-indigo-600",
+                        "border": "border-indigo-500",
+                        "lightBg": "bg-indigo-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "r6-1",
+                            "title": "Forms Handling"
+                        },
+                        {
+                            "id": "r6-2",
+                            "title": "Validation"
+                        },
+                        {
+                            "id": "r6-3",
+                            "title": "Error Handling"
+                        },
+                        {
+                            "id": "r6-4",
+                            "title": "Lazy Loading"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-6",
+                    "title": "State Management",
+                    "color": {
+                        "bg": "bg-pink-500",
+                        "text": "text-pink-600",
+                        "border": "border-pink-500",
+                        "lightBg": "bg-pink-50"
+                    },
+                    "topics": [
+                        {
+                            "id": "r7-1",
+                            "title": "Context API"
+                        },
+                        {
+                            "id": "r7-2",
+                            "title": "Redux"
+                        },
+                        {
+                            "id": "r7-3",
+                            "title": "Redux Toolkit"
+                        },
+                        {
+                            "id": "r7-4",
+                            "title": "React Query"
+                        }
+                    ]
+                },
+                {
+                    "id": "phase-7",
+                    "title": "Next.js",
+                    "color": {
+                        "bg": "bg-black",
+                        "text": "text-black",
+                        "border": "border-black",
+                        "lightBg": "bg-gray-200"
+                    },
+                    "topics": [
+                        {
+                            "id": "r10-1",
+                            "title": "What is Next.js"
+                        },
+                        {
+                            "id": "r10-2",
+                            "title": "App Router"
+                        },
+                        {
+                            "id": "r10-3",
+                            "title": "Image Optimization"
+                        },
+                        {
+                            "id": "r10-4",
+                            "title": "Server Components"
+                        },
+                        {
+                            "id": "r10-5",
+                            "title": "CSR (Client-Side Rendering)"
+                        },
+                        {
+                            "id": "r10-6",
+                            "title": "SSR (Server-Side Rendering)"
+                        },
+                        {
+                            "id": "r10-7",
+                            "title": "SSG (Static Generation)"
+                        },
+                        {
+                            "id": "r10-8",
+                            "title": "ISR (Incremental Static Regeneration)"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
