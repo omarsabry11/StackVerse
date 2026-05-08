@@ -30,8 +30,8 @@ export default function Form({ enroll }: { enroll: boolean }) {
         setIsLoading(true);
 
         emailjs
-            .sendForm('service_rys6bjr', 'template_7fi3ejh', form.current!, {
-                publicKey: 'cG2v3tJaBfD6wJJio',
+            .sendForm('service_8t4tle3', 'template_hzf02yr', form.current!, {
+                publicKey: 'SvAfl5maRmqW6igQz',
             })
             .then(
                 () => {
@@ -85,7 +85,7 @@ export default function Form({ enroll }: { enroll: boolean }) {
             <div >
                 <label htmlFor="msg" className={LABEL_CLASSES}>{t("message.label")}</label>
                 <textarea
-                    name="msg"
+                    name="message"
                     id="msg"
                     className="w-full p-3 rounded-lg border-2 border-gray-300 focus:outline-main dark:text-contentDark dark:placeholder:text-contentDark dark:border-gray-700"
                     placeholder={t("message.placeholder")} />
