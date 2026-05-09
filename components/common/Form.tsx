@@ -1,5 +1,4 @@
 "use client"
-import React from 'react'
 import { Send } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
@@ -33,23 +32,21 @@ export default function Form({ enroll, course }: Props) {
     const { locale: lang }: { locale: string, courseId: string } = useParams();
 
     async function sendMessage(values: FormValues) {
-        // setIsLoading(true);
-        // fetch("/api/contact", {
-        //     method: "POST",
-        //     headers: {
-        //         "Content-Type": "application/json",
-        //     },
-        //     body: JSON.stringify(values),
-        // }).then(() => {
-        //     form.current?.reset();
-        //     toast.success(t("bookedSuccessed"))
-        // }).catch(() => {
-        //     toast.success(t("bookedFailed"))
-        // }).finally(() => {
-        //     setIsLoading(false);
-        // });
-
-          toast.success(t("bookedSuccessed"))
+        setIsLoading(true);
+        fetch("/api/contact", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(values),
+        }).then(() => {
+            form.current?.reset();
+            toast.success(t("bookedSuccessed"))
+        }).catch(() => {
+            toast.success(t("bookedFailed"))
+        }).finally(() => {
+            setIsLoading(false);
+        });
     };
     const formik = useFormik({
         initialValues: {

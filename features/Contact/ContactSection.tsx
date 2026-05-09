@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import From from "@/components/common/Form";
 import { MessageCircle } from "lucide-react";
+import Form from "@/components/common/Form";
 
 
 
@@ -40,7 +41,7 @@ export default function ContactSection() {
                 </header>
 
                 <div className="shadow-lg border border-gray-200 dark:border-gray-700 p-6 rounded-2xl">
-                    <From enroll={false}></From>
+                    <Form course={null} enroll={false}></Form>
                     <div className="mt-8 border-t-2 border-gray-200 pt-5 dark:border-gray-700">
                         <p className="text-[#64748b] text-center mb-5 text-sm ">{t("orConnect")}</p>
 
