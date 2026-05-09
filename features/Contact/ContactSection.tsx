@@ -11,7 +11,7 @@ export default function ContactSection() {
     const t = useTranslations("Contact");
 
     function sendWhatsAppMessage(): void {
-        const phoneNumber = "+201286183936";
+        const phoneNumber = "+201217719650";
         const message = "Hello, I would like to get in touch!";
         const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
             message

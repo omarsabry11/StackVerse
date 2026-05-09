@@ -111,7 +111,9 @@
             "placeholder": "Write your message..."
         },
         "button": "Send",
-        "booedSuccessed": "Your message has been sent successfully",
+        "bookedSuccessed": "Your message has been sent successfully",
+    "bookedFailed": "Failed to send the message. Please try again.",
+
         "orConnect": "Or connect with us on"
     },
     "Footer": {

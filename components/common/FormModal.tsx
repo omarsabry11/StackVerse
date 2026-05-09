@@ -3,12 +3,15 @@ import { motion } from "framer-motion";
 import Form from "./Form";
 import { X } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { Course } from "@/types/Course";
+import { CourseRoadmap } from "@/features/Roadmap/types/roadmap";
 
 type Props = {
     isOpen: boolean,
-    setIsOpen(status: boolean): void
+    setIsOpen(status: boolean): void,
+    course: Course | CourseRoadmap |null;
 }
-export default function FormModal({ isOpen, setIsOpen }: Props) {
+export default function FormModal({ isOpen, setIsOpen, course }: Props) {
 
     const t = useTranslations("Courses")
     return (
@@ -37,7 +40,7 @@ export default function FormModal({ isOpen, setIsOpen }: Props) {
                     </button>
                 </header>
                 <div>
-                    <Form enroll={true}></Form>
+                    <Form course={course} enroll={true}></Form>
                 </div>
             </motion.div></div>
     )

@@ -9,7 +9,6 @@ import { getMessages } from "next-intl/server";
 import Footer from "@/components/layout/Footer";
 
 import { Poppins, Cairo } from "next/font/google";
-import CourseProvider from "@/contexts/CoursesContext";
 
 export const metadata: Metadata = {
   title: "StackVerse — The Smart Way to Learn Programming",
@@ -56,7 +55,6 @@ export default async function RootLayout({
       <body suppressHydrationWarning className={`min-h-full flex flex-col`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Providers>
-            <CourseProvider>
               <div className="min-h-screen flex flex-col">
                 <Navbar></Navbar>
                 <div className="grow">
@@ -64,7 +62,6 @@ export default async function RootLayout({
                 </div>
                 <Footer></Footer>
               </div>
-            </CourseProvider>
           </Providers>
         </NextIntlClientProvider>
 

@@ -1,6 +1,7 @@
 import { CourseRoadmap } from '@/features/Roadmap/components/CourseRoadmap'
 import roadmap from "../../../../../data/roadmap.json"
 import { notFound } from 'next/navigation';
+import { CourseRoadmap as Course } from '@/features/Roadmap/types/roadmap';
 export default async function Roadmap({
   params,
 }: {
@@ -8,11 +9,12 @@ export default async function Roadmap({
 }) {
 
   const { courseId } = await params;
-  const course = roadmap.courses.find((course: any) => course.id == Number(courseId));
+  const course = roadmap.courses.find((course: Course) => course.id == Number(courseId));
 
   if (!course) {
     return notFound();
   }
+
 
   return (
     <section id='roadmap' className='overflow-auto pt-16'>
@@ -24,7 +26,6 @@ export default async function Roadmap({
           <CourseRoadmap course={course} />
         </div>
       </div>
-
     </section>
   )
 }

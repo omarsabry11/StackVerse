@@ -111,7 +111,8 @@
       "placeholder": "اكتب رسالتك..."
     },
     "button": "إرسال",
-    "booedSuccessed": "تم إرسال رسالتك بنجاح",
+    "bookedSuccessed": "تم إرسال رسالتك بنجاح",
+    "bookedFailed": "فشل إرسال الرسالة. برجاء المحاولة مرة أخرى.",
     "orConnect": "أو تواصل معنا عبر:"
   },
   "Footer": {

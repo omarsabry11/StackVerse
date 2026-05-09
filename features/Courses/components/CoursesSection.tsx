@@ -5,16 +5,16 @@ import { usePathname } from 'next/navigation'
 import FormModal from '@/components/common/FormModal'
 import useModal from '@/hooks/useModal'
 import CourseCard from './CourseCard'
-import { useCourseContext } from '@/contexts/CoursesContext'
 import useCourses from '@/hooks/useCourses'
 import { Course } from '@/types/Course'
 import { CourseRoadmap } from '@/features/Roadmap/types/roadmap'
+import { useState } from 'react'
 
 
 export function CoursesSection() {
 
     const t = useTranslations("Courses");
-    const { enrolledCourse, setEnrolledCourse } = useCourseContext();
+   
     const COURSES: Course[] = [
         {
             id: 1,
@@ -43,19 +43,20 @@ export function CoursesSection() {
     const lang = pathName.split("").slice(1, 3).join("");
     const { isOpen, setIsOpen } = useModal();
     const { allCourses } = useCourses();
+    const [ selectedCourse, setSelectedCourse ] = useState<Course|null>(null);
 
     function handleOpenModal(course: Course) {
         const selectedCourse: CourseRoadmap | undefined = allCourses.find(c => c.id == course.id)
         if (!selectedCourse) return
         setIsOpen(true);
-        setEnrolledCourse(selectedCourse)
+        setSelectedCourse(course)
     }
     return (
         <section
             id="courses"
             className="bg-[#F8FAFC] dark:bg-[#0D1322]"
         >
-            <FormModal isOpen={isOpen} setIsOpen={setIsOpen}></FormModal>
+            <FormModal course={selectedCourse} isOpen={isOpen} setIsOpen={setIsOpen}></FormModal>
             <div className="myContainer">
                 <motion.header
                     initial={{

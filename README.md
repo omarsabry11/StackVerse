@@ -7,7 +7,7 @@ The project focuses on performance, scalability, and a clean user experience usi
 
 ## 🌐 Live Demo
 
-🔗 [View Live Website](https://stack-verse-one.vercel.app/en)
+🔗 [View Live Website](https://stack-verse-4wjp.vercel.app/en)
 
 ---
 
@@ -18,7 +18,7 @@ The project focuses on performance, scalability, and a clean user experience usi
 - 🎨 **Modern UI Design** – Built with **Tailwind CSS 4**
 - 🌙 **Dark / Light Mode** – Using `next-themes`
 - 🎬 **Smooth Animations** – Powered by `framer-motion`
-- 📩 **Contact System** – Integrated with `EmailJS`
+- 📩 **Contact System** – Integrated with `resend`
 - 🔔 **Notifications** – Using `React Toastify`
 - 📱 **Fully Responsive Design** – Mobile, Tablet & Desktop support
 - 🧩 **Reusable Components** – Clean and scalable architecture
@@ -28,16 +28,16 @@ The project focuses on performance, scalability, and a clean user experience usi
 
 ## 🧰 Tech Stack
 
-| Technology        | Purpose                        |
+| Technology        | Purpose                       |
 |------------------|--------------------------------|
 | Next.js 16       | Full-stack React Framework     |
 | React 19         | UI Library                     |
-| TypeScript       | Type Safety                   |
+| TypeScript       | Type Safety                    |
 | Tailwind CSS 4   | Styling Framework              |
-| Framer Motion    | Animations                    |
-| Lucide React     | Icons                         |
-| next-intl        | Internationalization          |
-| next-themes      | Theme Management              |
-| EmailJS          | Email Integration             |
-| React Toastify   | Notifications                 |
+| Framer Motion    | Animations                     |
+| Lucide React     | Icons                          |
+| next-intl        | Internationalization           |
+| next-themes      | Theme Management               |
+| resend           | Email Integration              |
+| React Toastify   | Notifications                  |
 

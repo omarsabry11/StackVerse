@@ -62,22 +62,28 @@ export default function WhyUsSection() {
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
                     {reasons.map((reason, index: number) =>
                         <motion.div
-                            initial={{
-                                opacity: 0,
-                                y: 20
+                            initial={{       
+                                y: 15,
                             }}
                             whileInView={{
-                                opacity: 1,
-                                y: 0
+                                y: 0,
                             }}
                             viewport={{
-                                once: true
+                                once: true,
+                                amount: 0.2,
                             }}
                             transition={{
                                 duration: 0.5,
-                                delay: index * 0.1
+                                delay: index * 0.05,
+                                ease: "easeOut",
                             }}
-                            key={reason.id} className="text-center shadow p-6 rounded-2xl border border-gray-200 group hover:border-main hover:scale-[1.02] hover:shadow-lg duration-300 dark:border-gray-700">
+                            style={{
+                                willChange: "transform, opacity",
+                                transform: "translateZ(0)",
+                                backfaceVisibility: "hidden",
+                            }}
+                            key={reason.id}
+                            className="text-center shadow p-6 rounded-2xl border border-gray-200 group hover:border-main hover:scale-[1.02] hover:shadow-lg duration-300 dark:border-gray-700">
                             <div className="size-14  mx-auto mb-3  bg-[#F1F5F9] flex justify-center items-center rounded-full group-hover:bg-main group-hover:scale-105  duration-400 dark:bg-[#1E293B]">
                                 {reason.icon}
                             </div>

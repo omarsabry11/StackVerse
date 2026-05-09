@@ -58,7 +58,7 @@ export function Navbar() {
     const changeLang = (newLang: string) => {
         router.push(`/${newLang}/${pathname.substring(3)}${window.location.hash}`);
     };
-    
+
     useEffect(() => {
         function handleEsc(e: KeyboardEvent) {
             if (e.key === "Escape") {
