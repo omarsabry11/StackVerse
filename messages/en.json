@@ -99,7 +99,7 @@
             "placeholder": "Enter your name..."
         },
         "phone": {
-            "label": "Phone Number",
+            "label": "Phone (WhatsApp number)",
             "placeholder": "Enter your phone number..."
         },
         "course": {

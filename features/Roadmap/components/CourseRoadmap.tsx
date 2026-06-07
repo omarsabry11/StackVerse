@@ -6,6 +6,7 @@ import RoadmapHeader from './RoadmapHeader'
 import useModal from '@/hooks/useModal'
 import FormModal from '@/components/common/FormModal'
 import { useRouter } from 'next/navigation'
+import { ToastContainer } from 'react-toastify'
 
 
 export function CourseRoadmap({ course }: { course: Course }) {
@@ -23,8 +24,6 @@ export function CourseRoadmap({ course }: { course: Course }) {
     }
     const router = useRouter()
     useEffect(() => {
-        console.log("Helloooooooo");
-        
         const handleBack = () => {
             router.push("#courses")
         };
@@ -59,6 +58,10 @@ export function CourseRoadmap({ course }: { course: Course }) {
                     </div>
                 </div>
             </div>
+            <ToastContainer
+                autoClose={2500}
+            ></ToastContainer>
         </section>
+
     )
 }
