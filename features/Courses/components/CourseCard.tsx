@@ -65,7 +65,7 @@ export default function CourseCard({ index, course, lang, t, onOpenModal }: Prop
                 </div>
 
                 <Link
-                    href={`/${lang}/roadmap/${index + 1}`}
+                    href={`/${lang}/roadmap/${course.id}`}
                     className="w-full py-3 text-center rounded-xl font-semibold border border-gray-400 shadow mb-3 transition-transform duration-150 hover:shadow-lg hover:scale-[1.01] dark:text-contentDark"
                 >
                     {t("viewDetails")}

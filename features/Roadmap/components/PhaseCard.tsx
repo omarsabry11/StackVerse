@@ -99,9 +99,9 @@ export function PhaseCard({
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-y-3 gap-x-6 text-content dark:text-contentDark">
                   {phase.topics.map((topic, index) => {
                     return (
-                      <div key={topic.id} className="flex items-start gap-3 p-2 rounded-lg hover:bg-gray-50 cursor-pointer transition-colors group dark:hover:bg-[#0D1322]">
+                      <div key={topic.id} className="flex items-start gap-3 p-2 rounded-lg hover:bg-gray-50  transition-colors group">
                         <div
-                          className={`flex items-center gap-2 transition-transform group-hover:scale-110`}
+                          className={`flex items-center gap-2 transition-transform `}
                         > <span className={`${phase.color.text} text-xs size-5 font-bold flex justify-center items-center border-2 rounded-full`}>{index + 1}</span> <span className='font-medium'> {topic.title}</span>
                         </div>
                       </div>

@@ -44,14 +44,24 @@
                 "duration": "12 Weeks"
             },
             {
-                "title": "Frontend Web Development",
+                "title": "Frontend Web Development with React.js",
                 "desc": "Become a professional Frontend Developer with React.js. Build real-world projects, create dynamic and responsive UIs, and learn the tools and techniques used in modern web development.",
                 "duration": "20 Weeks"
             },
             {
                 "title": "React & Next.js",
-                "desc": "Learn how to build fast, scalable web applications using React and Next.js. Master server-side rendering, routing, performance optimization, and modern best practices while building real-world projects.",
-                "duration": "10 Weeks"
+                "desc": "Learn the basics of programming, including logic, problem solving, and core concepts, step by step from beginner to confident developer.",
+                "duration": "8 Weeks"
+            },
+            {
+                "title": "Fundamentals of Programming with python",
+                "desc": "Learn the basics of programming, including logic, problem solving, and core concepts, step by step from beginner to confident developer.",
+                "duration": "8 Weeks"
+            },
+            {
+                "title": "Backend Development with Node.js",
+                "desc": "Master backend development with Node.js by building scalable APIs, working with databases, authentication, security, and deploying real-world applications.",
+                "duration": "20 Weeks"
             }
         ],
         "fundamentals": {
@@ -60,7 +70,7 @@
             "duration": "12 Weeks"
         },
         "frontend": {
-            "title": "Frontend Web Development",
+            "title": "Frontend Web Development with React.js",
             "desc": "Become a professional Frontend Developer with React.js. Build real-world projects, create dynamic and responsive UIs, and learn the tools and techniques used in modern web development.",
             "duration": "20 Weeks"
         },
@@ -68,6 +78,16 @@
             "title": "React & Next.js",
             "desc": "Learn how to build fast, scalable web applications using React and Next.js. Master server-side rendering, routing, performance optimization, and modern best practices while building real-world projects.",
             "duration": "10 Weeks"
+        },
+        "python": {
+            "title": "Fundamentals of Programming with python",
+            "desc": "Learn the basics of programming, including logic, problem solving, and core concepts, step by step from beginner to confident developer.",
+            "duration": "8 Weeks"
+        },
+        "backend": {
+            "title": "Backend Development with Node.js",
+            "desc": "Master backend development with Node.js by building scalable APIs, working with databases, authentication, security, and deploying real-world applications.",
+            "duration": "20 Weeks"
         },
         "enroll": "Enroll Now",
         "viewDetails": "View Details"
@@ -112,8 +132,7 @@
         },
         "button": "Send",
         "bookedSuccessed": "Your message has been sent successfully",
-    "bookedFailed": "Failed to send the message. Please try again.",
-
+        "bookedFailed": "Failed to send the message. Please try again.",
         "orConnect": "Or connect with us on"
     },
     "Footer": {

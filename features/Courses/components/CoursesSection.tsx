@@ -21,21 +21,35 @@ export function CoursesSection() {
             title: t("fundamentals.title"),
             description: t("fundamentals.desc"),
             duration: t("fundamentals.duration"),
-            imageUrl: "/assets/images/C++.png"
+            imageUrl: "/assets/images/Courses/CPP.webp"
         },
         {
             id: 2,
             title: t("frontend.title"),
             description: t("frontend.desc"),
             duration: t("frontend.duration"),
-            imageUrl: "/assets/images/Frontend.webp"
+            imageUrl: "/assets/images/Courses/Frontend.webp"
         },
         {
             id: 3,
             title: t("reactNext.title"),
             description: t("reactNext.desc"),
             duration: t("reactNext.duration"),
-            imageUrl: "/assets/images/ReactNext.png"
+            imageUrl: "/assets/images/Courses/ReactNext.webp"
+        },
+        {
+            id: 4,
+            title: t("python.title"),
+            description: t("python.desc"),
+            duration: t("python.duration"),
+            imageUrl: "/assets/images/Courses/Python.webp"
+        },
+        {
+            id: 5,
+            title: t("backend.title"),
+            description: t("backend.desc"),
+            duration: t("backend.duration"),
+            imageUrl: "/assets/images/Courses/Nodejs.webp"
         },
     ]
 
